@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "vaidating product product from addTOcart is removed",
+        "description": "",
+        "id": "validating-amazon-add-to-cart-page;vaidating-product-product-from-addtocart-is-removed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3490800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Amazon page",
+            "match": {
+              "location": "StepDef.i_am_on_Amazon_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy15.isEnabled(Unknown Source)\r\n\tat com.stepdefinition.StepDef.i_need_to_enter_userName_and_Password_and_Click_login_button(StepDef.java:35)\r\n\tat ✽.I need to enter userName and Password and Click login button(src/test/resources/Amazon.feature:5)\r\n",
+              "duration": 109470600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I need to enter userName and Password and Click login button",
+            "match": {
+              "location": "StepDef.i_need_to_enter_userName_and_Password_and_Click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I need to validate MY username is present on right side header page of Homepage",
+            "match": {
+              "location": "StepDef.i_need_to_validate_MY_username_is_present_on_right_side_header_page_of_Homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 833900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I need to search for a product",
+            "match": {
+              "location": "StepDef.i_need_to_search_for_a_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I need to click a particular product from search list and add to card",
+            "match": {
+              "location": "StepDef.i_need_to_click_a_particular_product_from_search_list_and_add_to_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I need to verify Product is added successfully",
+            "match": {
+              "location": "StepDef.i_need_to_verify_Product_is_added_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9900,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I need to procedd for payment",
+            "match": {
+              "location": "StepDef.i_need_to_procedd_for_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9800,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "GO back to cart page and remove product from cart",
+            "match": {
+              "location": "StepDef.go_back_to_cart_page_and_remove_product_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17700,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I need to verify that product is removed from the cart",
+            "match": {
+              "location": "StepDef.i_need_to_verify_that_product_is_removed_from_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Amazon Add to cart page",
+    "description": "",
+    "id": "validating-amazon-add-to-cart-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Amazon.feature",
+    "tags": []
+  }
+]
